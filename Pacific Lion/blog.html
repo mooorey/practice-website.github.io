@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="./styling/styles.css" rel="stylesheet" />
+    <link href="/styling/respStyles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar starts -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="home.html"
+          ><img src="./pictures/homeicon.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="process.html"
+                >Process</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="get-a-quote">
+            <div class="phone-number">
+              <i class="fa-solid fa-phone"></i>
+              +123 456 7890
+            </div>
+            <div>
+              <button class="btn btn-dark" type="submit">GET A QUOTE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--navbar ends -->
+
+    <!--blogs heading-->
+
+    <section class="blogs-page-heading my-5" data-aos="fade-in"></section>
+
+    <!--blogs heading ends-->
+
+    <!--section 1-->
+
+    <section class="blogs-page-section-1 my-5">
+      <div class="container">
+        <div class="row blogs-slider px-5 d-flex justify-content-center">
+          <div class="col-sm-12">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 1 ends-->
+
+    <!--section 2-->
+
+    <section class="blogs-page-section-2 my-5">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-sm-8">
+            <img src="./pictures/grey-photo.png" />
+          </div>
+          <div class="col-sm-4">
+            <h3>INTERVIEW</h3>
+            <h1>
+              Business Management:<br />
+              Managing Working Spirit <br />During Weekdays
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim.
+            </p>
+
+            <div>
+              <span><i class="fa-regular fa-user"></i></span>
+              <span>Rebecca Back</span>
+              <br />
+
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span>5 January 2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 2 ends-->
+
+    <!--section 3-->
+
+    <section class="blogs-page-section-3 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>CAREER</h3>
+            <h1>
+              How To Improve <br />
+              Employees Morale?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>10 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>BUSINESS</h3>
+            <h1>
+              Start from Zero - <br />
+              Building a Business
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>5 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>BUSINESS</h3>
+            <h1>
+              Start from Zero - <br />
+              Building a Business
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>5 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>CAREER</h3>
+            <h1>
+              How To Improve <br />
+              Employees Morale?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>10 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>BUSINESS</h3>
+            <h1>
+              Start from Zero - <br />
+              Building a Business
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>5 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>BUSINESS</h3>
+            <h1>
+              Start from Zero - <br />
+              Building a Business
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>5 January 2022</small>
+            </p>
+          </div>
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>LIFESTYLE</h3>
+            <h1>
+              Fun Working in <br />
+              Coworking Space
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>27 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>CAREER</h3>
+            <h1>
+              How To Improve <br />
+              Employees Morale?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>10 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>BUSINESS</h3>
+            <h1>
+              Start from Zero - <br />
+              Building a Business
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>5 January 2022</small>
+            </p>
+          </div>
+
+          <div class="col-sm-3 my-5">
+            <img src="./pictures/grey-photo.png" />
+            <h3>BUSINESS</h3>
+            <h1>
+              Start from Zero - <br />
+              Building a Business
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget.
+              <br />
+              <br />
+              <small>5 January 2022</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 3 ends-->
+
+    <!--footer starts-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3 mb-3">
+            <img src="./pictures/footerlogo.png" />
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p>
+                  2755 Commercial St SE Salem, Corner with Sunny Boulevard, 3755
+                  Commercial OR 97302
+                </p>
+              </li>
+              <li class="nav-item mb-2">
+                <span
+                  ><i class="fa-solid fa-phone" style="color: #ffffff"></i
+                ></span>
+                <span style="color: white">+123 456 7891</span>
+              </li>
+              <li class="nav-item mb-2">
+                <span
+                  ><i class="fa-regular fa-envelope" style="color: #ffffff"></i
+                ></span>
+                <span style="color: white">hello@pacificlion.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Information</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">FAQ</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">User Account</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Legal Regulations</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Social Media</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Facebook</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Linkedin</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Twitter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <form>
+              <h1>Newsletter</h1>
+              <p>
+                Subscribe to our newsletter to get the update news related to
+                our latest properties and time limited discounts.
+              </p>
+              <div class="d-grid gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your e-mail address"
+                />
+                <button class="btn btn-dark" type="button">
+                  <div class="d-flex gap-2">
+                    <span>Subscribe</span>
+                    <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--footer ends-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".blogs-slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+  </body>
+</html>

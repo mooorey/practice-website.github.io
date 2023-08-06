@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./styling/styles.css" rel="stylesheet" />
+    <link href="/styling/respStyles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar starts -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="home.html"
+          ><img src="./pictures/homeicon.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="process.html"
+                >Process</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="get-a-quote">
+            <div class="phone-number">
+              <i class="fa-solid fa-phone"></i>
+              +123 456 7890
+            </div>
+            <div>
+              <button class="btn btn-dark" type="submit">GET A QUOTE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--navbar ends -->
+
+    <!--Schedule section starts-->
+
+    <section class="schedule-section my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 futures-column">
+            <h1>Growing new ventures for a better future.</h1>
+            <p>
+              Pacific Lion LLC is owned solely by myself, Jacob Fernane. My
+              primary business is providing direct investments and consulting to
+              early-stage companies.
+            </p>
+          </div>
+
+          <div class="col-sm-6">
+            <img src="./pictures/schedule-section-img.png" />
+          </div>
+
+          <button type="button" class="btn btn-warning">
+            SCHEDULE A CONSULTATION TODAY!
+            <img src="./pictures/Arrow Icon.png" />
+          </button>
+        </div>
+      </div>
+      <img class="yellow-background" src="./pictures/Yellow Background.png" />
+      <img class="circle-ornament" src="./pictures/Circle Ornament.png" />
+    </section>
+
+    <!--Schedule section ends-->
+
+    <!--about us section starts-->
+    <section class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 ceo-logo-ring">
+            <img src="./pictures/Ellipse 1.png" id="ceo-image" />
+          </div>
+          <div class="col-sm-6 flexible">
+            <div class="row">
+              <div class="col-sm-2 line">
+                <img src="./pictures/Line.png" />
+              </div>
+              <div class="col-sm-10">
+                <h3>ABOUT US</h3>
+                <h1>Collaborative.Flexible.<br />Innovative</h1>
+                <p class="text-1">
+                  coworking space available for various working needs. or
+                  virtual meeting, collaboration or just working together, you
+                  can do it all here.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-3">
+                  <h4 data-target="100" class="count">0</h4>
+                  <p>Acquisitions by our companies</p>
+                </div>
+                <div class="col-sm-1">
+                  <img src="./pictures/Left Circle.png" class="left-circle" />
+                </div>
+                <div class="col-sm-3">
+                  <h4 data-target="10" class="count">0</h4>
+                  <p>Sector in which we invest</p>
+                </div>
+                <div class="col-sm-1">
+                  <img src="./pictures/Left Circle.png" class="left-circle" />
+                </div>
+                <div class="col-sm-3">
+                  <h4 data-target="50" class="count">0</h4>
+                  <p>Collaboration Partners</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--about us section ends-->
+
+    <!--pacific section-->
+    <section>
+      <img src="./pictures/Line.png" class="pacific-line" />
+      <img src="./pictures/pacific-text.png" class="pacific-text.png" />
+      <div class="container pacific">
+        <div class="row">
+          <div class="col-sm-5 offer">
+            <div>
+              <h3>SERVICES</h3>
+              <h1>What We Offer</h1>
+              <p>
+                Offering a range of business solutions to invest, launch, expand
+                and problem solve complex business processes.
+              </p>
+            </div>
+            <img src="./pictures/Group 3.png" class="group-3" />
+          </div>
+          <div class="col-sm-7">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <img
+                    src="./pictures/grey-photo.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Direct Investments</h5>
+                    <p class="card-text">
+                      Investments into the most innovative, inspiring and
+                      lucrative business ideas across the globe.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <img
+                    src="./pictures/grey-photo.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Hands-on Consulting</h5>
+                    <p class="card-text">
+                      Expertise in corporate financing/debt structuring,
+                      mergers/acquisitions, operations and other transitional
+                      phases continue to be among my most vital assets, as do
+                      strong communication, out-of-the-box thinking, and
+                      calculated risk-taking.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <img
+                    src="./pictures/grey-photo.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Launch New Businesses</h5>
+                    <p class="card-text">
+                      My approach to all endeavours combines behind-the-scenes
+                      investing with hands-on consulting - a recipe that
+                      continues to yield win-win results for all stakeholders
+                      involved.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--pacific section ends-->
+
+    <!--need help section-->
+
+    <section>
+      <div class="container any-help my-5">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6 text-section">
+            <h3>GET A QUOTE</h3>
+            <h1>NEED ANY HELP?</h1>
+            <p>
+              Speak to a member of the Pacific Lion LLC team today by submitting
+              our contact form below or reaching out to us via email or phone.
+            </p>
+            <button type="button" class="btn btn-warning text-white">
+              CONTACT NOW
+            </button>
+          </div>
+          <div class="col-sm-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--need help section ends-->
+
+    <!--booking section-->
+
+    <section class="booking">
+      <img src="./pictures/Line.png" class="booking-yellow-line" />
+      <img
+        src="./pictures/Circle Ornament black.png"
+        class="booking-black-ornament"
+      />
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8 tabs">
+            <div class="tabs-column column-1">
+              <h1>Easy Booking</h1>
+              <div class="tabs-text">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <button type="button" class="btn btn-warning">
+                  Schedule a Consultation
+                  <img src="./pictures/black-Arrow.png" class="booking-arrow" />
+                </button>
+              </div>
+            </div>
+            <div class="tabs-column column-2">
+              <h1>Discovery Process</h1>
+              <div class="tabs-text">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <button type="button" class="btn btn-warning">
+                  Schedule a Consultation
+                  <img src="./pictures/black-Arrow.png" class="booking-arrow" />
+                </button>
+              </div>
+            </div>
+            <div class="tabs-column column-3">
+              <h1>Final Step</h1>
+              <div class="tabs-text">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <button type="button" class="btn btn-warning">
+                  Schedule a Consultation
+                  <img src="./pictures/black-Arrow.png" class="booking-arrow" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 booking-text">
+            <h3>Booking</h3>
+            <h1>What Do <br />You Need?</h1>
+            <p>
+              Pick a perfect pricing you<br />
+              need for your work
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--booking section ends-->
+
+    <!--partners section-->
+
+    <section class="partners">
+      <img
+        src="./pictures/Circle Ornament black.png"
+        class="partners-black-circle-ornament"
+      />
+      <img
+        src="./pictures/Circle Ornament.png"
+        class="partners-orange-circle-ornament"
+      />
+      <div class="container">
+        <div class="row">
+          <h3>ONBOARD</h3>
+          <h1>Our Partners</h1>
+          <p>
+            The sneak peek to our cool and cozy place<br />
+            for your work environment.
+          </p>
+          <div class="col-sm-4">
+            <img
+              src="./pictures/grey-photo.png"
+              class="partners-grey-photo-1"
+            />
+          </div>
+          <div class="col-sm-4 grey-column">
+            <img
+              src="./pictures/grey-photo.png"
+              class="partners-grey-photo-2"
+            />
+            <img
+              src="./pictures/grey-photo.png"
+              class="partners-grey-photo-3"
+            />
+          </div>
+          <div class="col-sm-4">
+            <img
+              src="./pictures/grey-photo.png"
+              class="partners-grey-photo-4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--partners section ends-->
+
+    <!--testimonials section-->
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h3>Testimonials</h3>
+            <h1>What They Say <br />About Us?</h1>
+            <p>
+              Our services and facilities, reviewed directly by our lovely
+              customers.
+            </p>
+          </div>
+          <div class="col-sm-4 testimonials-card">
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="./pictures/testimonials-circle-Photo.png" />
+              </div>
+              <div class="col-sm-9">
+                <h1>Wilhelm</h1>
+                <h3>Project Manager</h3>
+              </div>
+              <div class="col-sm-12">
+                <p>
+                  What a cozy place to work and take a breather from the stuffy
+                  atmosphere. It's worth trying, considering the facilities are
+                  the best, too.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 testimonials-card">
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="./pictures/testimonials-circle-Photo.png" />
+              </div>
+              <div class="col-sm-9">
+                <h1>Joan</h1>
+                <h3>Freelance Writer</h3>
+              </div>
+              <div class="col-sm-12">
+                <p>
+                  Working as a freelancer gives me the freedom to choose the
+                  place to work. Using Coolab is the best experience and it
+                  becomes my favorite working place.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--testimonials section ends-->
+
+    <!--blogs section-->
+    <section class="blogs">
+      <img
+        src="./pictures/Circle Ornament black.png"
+        class="blogs-circle-ornament-black"
+      />
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 blogs-text">
+            <div>
+              <h3>BLOGS</h3>
+              <h1>Get Involved</h1>
+              <p>Join our regular and scheduled blogs. Available for public.</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <p>All Blogs</p>
+              <img src="./pictures/black-Arrow.png" />
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <div class="row slider">
+              <div class="col-sm-12 mx-2 blog-cards">
+                <h5>NOV 17, 2022</h5>
+                <p>
+                  Ventures Announces Sale of Colorado Senior Housing Communities
+                  to Harrison Street
+                </p>
+                <img src="./pictures/black-Arrow.png" />
+              </div>
+              <div class="col-sm-12 mx-2 blog-cards">
+                <h5>NOV 17, 2022</h5>
+                <p>
+                  Ventures Announces Sale of Colorado Senior Housing Communities
+                  to Harrison Street
+                </p>
+                <img src="./pictures/black-Arrow.png" />
+              </div>
+              <div class="col-sm-12 mx-2 blog-cards">
+                <h5>NOV 17, 2022</h5>
+                <p>
+                  Ventures Announces Sale of Colorado Senior Housing Communities
+                  to Harrison Street
+                </p>
+                <img src="./pictures/black-Arrow.png" />
+              </div>
+              <div class="col-sm-12 mx-2 blog-cards">
+                <h5>NOV 17, 2022</h5>
+                <p>
+                  Ventures Announces Sale of Colorado Senior Housing Communities
+                  to Harrison Street
+                </p>
+                <img src="./pictures/black-Arrow.png" />
+              </div>
+              <div class="col-sm-12 mx-2 blog-cards">
+                <h5>NOV 17, 2022</h5>
+                <p>
+                  Ventures Announces Sale of Colorado Senior Housing Communities
+                  to Harrison Street
+                </p>
+                <img src="./pictures/black-Arrow.png" />
+              </div>
+              <div class="col-sm-12 mx-2 blog-cards">
+                <h5>NOV 17, 2022</h5>
+                <p>
+                  Ventures Announces Sale of Colorado Senior Housing Communities
+                  to Harrison Street
+                </p>
+                <img src="./pictures/black-Arrow.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--blogs section ends-->
+
+    <!--footer starts-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3 mb-3">
+            <img src="./pictures/footerlogo.png" />
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p>
+                  2755 Commercial St SE Salem, Corner with Sunny Boulevard, 3755
+                  Commercial OR 97302
+                </p>
+              </li>
+              <li class="nav-item mb-2">
+                <span
+                  ><i class="fa-solid fa-phone" style="color: #ffffff"></i
+                ></span>
+                <span style="color: white">+123 456 7891</span>
+              </li>
+              <li class="nav-item mb-2">
+                <span
+                  ><i class="fa-regular fa-envelope" style="color: #ffffff"></i
+                ></span>
+                <span style="color: white">hello@pacificlion.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Information</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">FAQ</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">User Account</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Legal Regulations</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Social Media</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Facebook</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Linkedin</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Twitter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <form>
+              <h1>Newsletter</h1>
+              <p>
+                Subscribe to our newsletter to get the update news related to
+                our latest properties and time limited discounts.
+              </p>
+              <div class="d-grid gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your e-mail address"
+                />
+                <button class="btn btn-dark" type="button">
+                  <div class="d-flex gap-2">
+                    <span>Subscribe</span>
+                    <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--footer ends-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+  </body>
+</html>
